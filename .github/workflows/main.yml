@@ -17,3 +17,5 @@ jobs:
         run: |
           echo "The repository ${{ github.repository }} contains the following files:"
           tree
+      - name: this is a test step for me 
+        run: echo  "this is the first step for me about workflows in github actions"
