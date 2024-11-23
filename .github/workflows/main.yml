@@ -12,6 +12,7 @@ jobs:
 
     steps:
       - run: echo "👋 Hello World! salam man mostafa banaei hastam"
+      - run: echo  "salam man mostafa 20202 hastam ver3"
       - name: List files in repository
         run: |
           echo "The repository ${{ github.repository }} contains the following files:"
